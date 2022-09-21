@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Amaranth&family=Crimson+Text&family=Fredericka+the+Great&family=Gentium+Book+Basic&family=Hahmlet:wght@600&family=Lora:wght@600&family=Oleo+Script&family=Rancho&family=Rye&family=Titillium+Web:wght@700&family=Work+Sans:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
