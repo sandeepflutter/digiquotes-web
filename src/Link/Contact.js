@@ -30,27 +30,7 @@ export const Contact = ({social: {youtube, facebook, twitter, email, insta}}) =>
       <div id="skill" className=" mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-2">
 
 
-<section class="text-black body-font relative">
-  <div class="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-    <div class="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
- 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.2768919371!2d85.29111305705348!3d27.709031933798837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1660056717028!5m2!1sen!2snp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="100%" title="map" class="absolute inset-0 bg-gray-300" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
-   
-      <div class="bg-white relative flex flex-wrap py-2 rounded shadow-md opacity-90">
-        <div class="lg:w-1/2 px-10">
-          <h2 class=" font-bold text-red-500 tracking-widest text-xs font-hahmlet ">ADDRESS</h2>
-          <p class="mt-1 text-blue-500 font-lora">Kathmandu, Bagmati Province, Nepal</p>
-        </div>
-        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-          <h2 class=" font-bold text-red-500 tracking-widest text-xs font-hahmlet">EMAIL</h2>
-          <button class="text-blue-500 leading-relaxed font-lora" >codegorkha@gmail.com</button>
-          <h2 class=" font-bold text-red-500 tracking-widest text-xs mt-4 font-hahmlet">PHONE</h2>
-          <p class="text-blue-500 font-lora">+977-9840173170</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <div class="box-content h-fit w-100% p-4 border-t-4 border-red-400 ">
   <div>
@@ -98,7 +78,24 @@ export const Contact = ({social: {youtube, facebook, twitter, email, insta}}) =>
               <span class="sr-only">Email</span>
             </a>
 </div>
-
+<section class=" relative flex align-center justify-center">
+  <div class="px-5">
+    <div class="overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <div class="bg-white relative flex flex-wrap py-2 shadow-md opacity-90">
+        <div class=" px-10">
+          <h2 class=" font-bold text-red-500 tracking-widest text-xs font-hahmlet ">ADDRESS</h2>
+          <p class="mt-1 text-blue-500 font-lora">Kathmandu, Bagmati Province, Nepal</p>
+        </div>
+        <div class=" px-6 mt-4 lg:mt-0">
+          <h2 class=" font-bold text-red-500 tracking-widest text-xs font-hahmlet">EMAIL</h2>
+          <button class="text-blue-500 leading-relaxed font-lora" >codegorkha@gmail.com</button>
+          <h2 class=" font-bold text-red-500 tracking-widest text-xs mt-4 font-hahmlet">PHONE</h2>
+          <p class="text-blue-500 font-lora">+977-9840173170</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   
 </div>
       </div>

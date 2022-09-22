@@ -10,7 +10,7 @@ import '../App.css';
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className=" sticky z-50 top-0 bg-gradient-to-r from-blue-800 to-blue-700 " >
+    <div className=" sticky z-50 top-0 bg-gradient-to-r from-green-800 to-green-700 " >
       <div className=" px-4 sm:px-6 lg:px-8">
       <div className="relative flex items-center justify-center h-12">
       
@@ -45,7 +45,7 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-blue-600 inline-flex p-2 rounded-md text-white hover:text-white hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800"
+                className="bg-blue-800 inline-flex p-2 rounded-md text-white hover:text-white hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
