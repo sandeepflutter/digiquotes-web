@@ -22,7 +22,7 @@ export const Screen = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 6500,
+          delay: 8000,
           disableOnInteraction: false,
         }}
         pagination={{

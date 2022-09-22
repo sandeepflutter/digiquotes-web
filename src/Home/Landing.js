@@ -1,9 +1,11 @@
 import React from 'react';
 import '../App.css';
-import wave from '../Asset/wave.svg'
-import {Link} from 'react-scroll';
-import gp from '../Asset/gp.png';
 import Screen from "../Home/Screen";
+import {FaYoutube}from 'react-icons/fa';
+import { ImFacebook2 } from "react-icons/im";
+import { FaTwitter } from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
+import {FaInstagram}from 'react-icons/fa';
 
 export const Landing  = () => {      
     return (
@@ -13,30 +15,57 @@ export const Landing  = () => {
     <Screen/>
   </div>
   
-<section class="pt-5">
-   <div class=" px-10 lg:flex items-center content-center md:flex lg:justify-between md:justify-between sm:justify-center justify-center">
-
-
-      <div class="flex ">
-      <div class="lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font font-oleo sm:text-4xl text-3xl mb-4 font-medium text-white">The journey of a thousand  
-        <br class="hidden lg:inline-block"/>miles begins with a single step.
-      </h1>
-      <p class="mb-5 leading-relaxed text-blue-300 text-justify font-rancho text-2xl">We create Simple Websites, Mobile Apps & Desktop Applications. So, come along with us as we assist you to grow.</p>
-      <div class="justify-center lg:pt-10">
-      
-      <a href='https://play.google.com/store/apps/developer?id=CodeGurkha&hl=en&gl=US' target="_blank" rel="noreferrer" class="pb-5 flex title-font font-medium items-center md:justify-start justify-center text-white">
-      <img src={gp} alt='' class=" w-40 h-12"/>
-      </a>
-      <Link to="about" spy={true} smooth={true} offset={-100} duration={600} href="#">
-      <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg ">Get Started</button>
-      </Link>
-   </div>
-    </div>
-      </div>
+<section class="py-5 px-5 flex align-center justify-evenly">
+<div class="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-2 gap-4">
+  <div>01</div>
+  <div>01</div>
+  <div>01</div>
+  <div>01</div>
 </div>
-<img src={wave} class="col-start-1 row-start-1 self-center" z-1 alt="Tailwind Play" />
 </section>
+
+<div className="flex align-center justify-center mt-1">
+  
+ 
+
+  <a
+    className="text-[3.5vh] m-1 p-1 sm:m-2 sm:p-2 text-red-600 hover:bg-red-600 hover:text-white transition-colors duration-300"
+    href={null} target="_blank" rel="noreferrer"
+  >
+    <FaYoutube/>
+    <span class="sr-only">Youtube</span>
+  </a>
+ 
+  <a
+    className="text-[3.5vh] m-1 p-1 sm:m-2 sm:p-2 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors duration-300"
+    href={null} target="_blank" rel="noreferrer"
+  >
+    <ImFacebook2/>
+    <span class="sr-only">Facebook</span>
+  </a>
+  <a
+    className="text-[3.5vh] m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 hover:text-white transition-colors duration-300"
+    href={null} target="_blank" rel="noreferrer"
+  >
+    <FaTwitter/>
+    <span class="sr-only">Twitter</span>
+  </a>
+
+  <a
+    className="text-[3.5vh] m-1 p-1 sm:m-2 sm:p-2 text-red-500 hover:bg-red-500 hover:text-white transition-colors duration-300"
+    href={null} target="_blank" rel="noreferrer"
+  >
+    <FaInstagram/>
+    <span class="sr-only">Twitter</span>
+  </a>
+  <a
+    className="text-[3.5vh] m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-teal-500 hover:text-white transition-colors duration-300"
+    href={"https://mail.google.com/mail/?view=cm&fs=1&to="+null } target="_blank" rel="noreferrer"
+  >
+    <FaRegEnvelope class="animate-pulse"/>
+    <span class="sr-only">Email</span>
+  </a>
+</div>
 
 
 </div>
