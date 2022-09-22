@@ -10,7 +10,7 @@ import '../App.css';
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className=" sticky z-50 top-0 bg-gradient-to-r from-green-800 to-green-700 " >
+    <div className=" sticky z-50 top-0 bg-gradient-to-r from-blue-800 to-blue-700 " >
       <div className=" px-4 sm:px-6 lg:px-8">
       <div className="relative flex items-center justify-center h-12">
       

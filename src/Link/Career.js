@@ -14,6 +14,14 @@ export const Career = () => {
   </div>
 </section>
    <Footer/>
+   <section class="bg-white py-5 justify-between mt-1 px-5">
+<div class="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-2 gap-4">
+  <div>01</div>
+  <div>01</div>
+  <div>01</div>
+  <div>01</div>
+</div>
+</section>
     </div>
   );
 };
