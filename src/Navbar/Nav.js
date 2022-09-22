@@ -24,13 +24,7 @@ function Nav() {
      <nav className="nav-links justify-center">
      <div className="hidden md:block">
      <div className="ml-10 flex items-baseline space-x-4">
-        
-        <NavLink to="/Website" onClick={()=>setIsOpen(false)} 
-        ActiveClassName="active"
-        className=" block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-4
-        px-1 py-2 rounded-md text-sm font-medium font-work"
-        >Website</NavLink>
-        
+         
         <NavLink to="/Contact" onClick={()=>setIsOpen(false)}
         ActiveClassName="active"
         className=" block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-4
@@ -99,13 +93,6 @@ function Nav() {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <NavLink to="/Website" onClick={()=>setIsOpen(false)}
-                
-              ActiveClassName="active"
-                className="font-work block lg:inline-block text-blue-200 hover:text-white mr-4 hover:bg-blue-700 px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Website
-                </NavLink>
 
                 <NavLink to="/Contact"  onClick={()=>setIsOpen(false)}
                 ActiveClassName="active"

@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Navbar/Nav";
 import { Routes, Route} from 'react-router-dom';
-import Website from "./Link/Website";
+import View from "./Link/View";
 import Contact from "./Link/Contact";
 import Home from "./Link/Home";
 import Career from "./Link/Career";
@@ -17,7 +17,7 @@ function App() {
         <Nav/>
 <Routes>
 <Route path="/" element={<Home/>} />
-        <Route path="/Website" element={<Website/>}/>
+        <Route path="/View" element={<View/>}/>
         <Route path="/Contact" element={<Contact social={data.social}/>}/>
         <Route path="/Career" element={<Career/>}/>
 </Routes>

@@ -4,8 +4,6 @@ import { Tab } from '@headlessui/react'
 
 
 import a from '../Asset/a.jpg'
-import r from '../Asset/r.png'
-import t from '../Asset/t.png'
 import Footer from "../Navbar/Footer";
 import Web from './Tip/Web'
 
@@ -20,7 +18,7 @@ function classNames(...classes) {
 
 
 
-export const Website = () => {
+export const View = () => {
 
   let [categories] = useState({
     Company: [
@@ -30,11 +28,6 @@ export const Website = () => {
         date: 'The company expertise lies in the fields of commercial and residential architectural design supervision and measurement, and cost estimation for residential and commercial buildings. We also have a highly specialized team in land surveying.',
         url: "https://www.ashrayaengineering.com.np/",
         img: a,
-        tag1: t,
-        tag2: r,
-        tag3: null,
-        tag4: null,
-
       },
     ],
   })
@@ -90,14 +83,7 @@ export const Website = () => {
                  <p class="text-gray-700 text-base mb-2 text-justify font-alegreya">
                  {post.date}
                  </p>
-                 
-                 
-                 <img class="text-sm inline rounded-full px-2 align-top float-right   h-7" src={post.tag1} alt=""/>
-                 <img class="text-sm inline rounded-full px-2 align-top float-right   h-7" src={post.tag2} alt=""/>
-                 <img class="text-sm inline rounded-full px-2 align-top float-right   h-7" src={post.tag3} alt=""/>
-                 <img class="text-sm inline rounded-full px-2 align-top float-right   h-7" src={post.tag4} alt=""/>
-                 
-                 </div>
+              </div>
                  </div>
                  </div>
                     </div>
@@ -115,4 +101,4 @@ export const Website = () => {
     );
   };
   
-  export default Website;
+  export default View;

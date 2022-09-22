@@ -15,7 +15,7 @@ export const Landing  = () => {
     <Screen/>
   </div>
   
-<section class="py-5 px-5 flex align-center justify-evenly">
+<section class="py-5 px-5 flex align-center justify-">
 <div class="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-2 gap-4">
   <div>01</div>
   <div>01</div>
