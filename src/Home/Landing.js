@@ -8,8 +8,11 @@ import Screen from "../Home/Screen";
 export const Landing  = () => {      
     return (
       
-<div id="home" class=" bg-gradient-to-r from-blue-800 to-blue-700 body-font">
-  <Screen/>
+<div id="home" class=" bg-gradient-to-r from-green-800 to-green-700 body-font">
+  <div className='h-[80vh]'>
+    <Screen/>
+  </div>
+  
 <section class="pt-5">
    <div class=" px-10 lg:flex items-center content-center md:flex lg:justify-between md:justify-between sm:justify-center justify-center">
 
