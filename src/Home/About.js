@@ -49,7 +49,7 @@ export const About  =  () => {
 <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            <FaBirthdayCake className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
           </div>
@@ -57,7 +57,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaGlassCheers className='w-full h-full  text-gray-500'/>
+            <FaGlassCheers className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">NEW YEAR</h6>
           </div>
@@ -65,7 +65,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaUsers className='w-full h-full  text-gray-500'/>
+            <FaUsers className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">INSPIRATIONAL</h6>
           </div>
@@ -73,7 +73,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaWolfPackBattalion className='w-full h-full  text-gray-500'/>
+            <FaWolfPackBattalion className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">ATTITUDE</h6>
           </div>
@@ -81,7 +81,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaGratipay className='w-full h-full  text-gray-500'/>
+            <FaGratipay className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">LOVE</h6>
           </div>
@@ -89,7 +89,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaDove className='w-full h-full  text-gray-500'/>
+            <FaDove className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">RELIGION</h6>
           </div>
@@ -97,7 +97,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaRegSnowflake className='w-full h-full  text-gray-500'/>
+            <FaRegSnowflake className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">CREATIVITY</h6>
           </div>
@@ -106,7 +106,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaMugHot className='w-full h-full  text-gray-500'/>
+            <FaMugHot className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">LIFE</h6>
           </div>
@@ -114,7 +114,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaFireAlt className='w-full h-full  text-gray-500'/>
+            <FaFireAlt className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">PASSION</h6>
           </div>
@@ -122,7 +122,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaBook className='w-full h-full  text-gray-500'/>
+            <FaBook className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">PROVERBS</h6>
           </div>
@@ -130,7 +130,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaLeaf className='w-full h-full  text-gray-500'/>
+            <FaLeaf className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">NATURE</h6>
           </div>
@@ -138,7 +138,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaDog className='w-full h-full  text-gray-500'/>
+            <FaDog className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">PET</h6>
           </div>
@@ -146,7 +146,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaMusic className='w-full h-full  text-gray-500'/>
+            <FaMusic className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">MUSIC</h6>
           </div>
@@ -154,7 +154,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaFistRaised className='w-full h-full  text-gray-500'/>
+            <FaFistRaised className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">MOVIE</h6>
           </div>
@@ -162,7 +162,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaPeopleCarry className='w-full h-full  text-gray-500'/>
+            <FaPeopleCarry className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">FRIENDSHIP</h6>
           </div>
@@ -170,7 +170,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaBriefcase className='w-full h-full  text-gray-500'/>
+            <FaBriefcase className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">ENTREPRENEURSHIP</h6>
           </div>
@@ -178,7 +178,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaAtom className='w-full h-full  text-gray-500'/>
+            <FaAtom className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">SCIENCE</h6>
           </div>
@@ -186,7 +186,7 @@ export const About  =  () => {
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
-            <FaCrown className='w-full h-full  text-gray-500'/>
+            <FaCrown className='w-full h-full  text-green-600'/>
             </div>
             <h6 className="mb-2 font-semibold leading-5 font-crimson">FAMOUS PEOPLE</h6>
           </div>

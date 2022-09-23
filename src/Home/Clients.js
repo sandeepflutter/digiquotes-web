@@ -1,12 +1,43 @@
 import Marquee from "react-fast-marquee";
 import React from 'react';
 import a from '../Asset/a.jpg';
+import b from '../Asset/1.png';
+import c from '../Asset/2.png';
+import d from '../Asset/3.png';
 
 export const Clients = () => {
 
       const img = [
         {
             img: a,
+            url: "https://www.ashrayaengineering.com.np/",
+          },
+          {
+            img: b,
+            url: "https://www.ashrayaengineering.com.np/",
+          },
+          {
+            img: c,
+            url: "https://www.ashrayaengineering.com.np/",
+          },
+          {
+            img: d,
+            url: "https://www.ashrayaengineering.com.np/",
+          },
+          {
+            img: a,
+            url: "https://www.ashrayaengineering.com.np/",
+          },
+          {
+            img: b,
+            url: "https://www.ashrayaengineering.com.np/",
+          },
+          {
+            img: c,
+            url: "https://www.ashrayaengineering.com.np/",
+          },
+          {
+            img: d,
             url: "https://www.ashrayaengineering.com.np/",
           },
       ];

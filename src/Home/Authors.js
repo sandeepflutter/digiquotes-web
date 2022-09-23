@@ -1,14 +1,12 @@
 import React, {useEffect} from 'react';
 import '../App.css';
-import Lottie from "lottie-react";
-import  feat from '../Asset/feature.json';
-import {FaCode} from 'react-icons/fa';
+import {FaQuoteRight} from 'react-icons/fa';
 import {FcSmartphoneTablet} from 'react-icons/fc';
 import {FcShipped} from 'react-icons/fc';
 import {FcMoneyTransfer} from 'react-icons/fc';
 import {BiWinkSmile} from 'react-icons/bi';
 import {MdSupportAgent} from 'react-icons/md';
-import {FaRegHandshake} from 'react-icons/fa';
+import {FaQuoteLeft} from 'react-icons/fa';
 import {GiFlexibleStar} from 'react-icons/gi';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
@@ -33,23 +31,73 @@ export const Authors  = () => {
 
       const feature1 = [
         {
-            ico: FaCode,
+            ico: FaQuoteRight,
             txt: "High-quality Code",
+            txt1:"h"
           },
 
           {
             ico: FcSmartphoneTablet,
             txt: "Easy-to-use software",
+            txt1:"h"
           },
 
           {
             ico: GiFlexibleStar,
             txt: "Flexibility",
+            txt1:"h"
           },
 
           {
             ico: FcShipped,
             txt: "Deliver on schedule",
+            txt1:"h"
+          },
+          {
+            ico: FaQuoteRight,
+            txt: "High-quality Code",
+            txt1:"h"
+          },
+
+          {
+            ico: FcSmartphoneTablet,
+            txt: "Easy-to-use software",
+            txt1:"h"
+          },
+
+          {
+            ico: GiFlexibleStar,
+            txt: "Flexibility",
+            txt1:"h"
+          },
+
+          {
+            ico: FcShipped,
+            txt: "Deliver on schedule",
+            txt1:"h"
+          },
+          {
+            ico: FaQuoteRight,
+            txt: "High-quality Code",
+            txt1:"h"
+          },
+
+          {
+            ico: FcSmartphoneTablet,
+            txt: "Easy-to-use software",
+            txt1:"h"
+          },
+
+          {
+            ico: GiFlexibleStar,
+            txt: "Flexibility",
+            txt1:"h"
+          },
+
+          {
+            ico: FcShipped,
+            txt: "Deliver on schedule",
+            txt1:"h"
           },
       ];
 
@@ -58,23 +106,73 @@ export const Authors  = () => {
 
       const feature = [
         {
-            ico: FaRegHandshake,
-            txt: "Application that is reliable",
+            ico: FcMoneyTransfer,
+            txt: "The good man is the friend of all living things.",
+            txt1:"- Mahatma Gandhi"
           },
 
           {
             ico: FcMoneyTransfer,
             txt: "Cost-effective rate",
+            txt1:"h"
           },
 
           {
             ico: BiWinkSmile,
             txt: "100% work satisfaction",
+            txt1:"h"
           },
 
           {
             ico: MdSupportAgent,
             txt: "Tech assistance & support",
+            txt1:"h"
+          },
+          {
+            ico: FaQuoteRight,
+            txt: "High-quality Code",
+            txt1:"h"
+          },
+
+          {
+            ico: FcSmartphoneTablet,
+            txt: "Easy-to-use software",
+            txt1:"h"
+          },
+
+          {
+            ico: GiFlexibleStar,
+            txt: "Flexibility",
+            txt1:"h"
+          },
+
+          {
+            ico: FcShipped,
+            txt: "Deliver on schedule",
+            txt1:"h"
+          },
+          {
+            ico: FaQuoteRight,
+            txt: "High-quality Code",
+            txt1:"h"
+          },
+
+          {
+            ico: FcSmartphoneTablet,
+            txt: "Easy-to-use software",
+            txt1:"h"
+          },
+
+          {
+            ico: GiFlexibleStar,
+            txt: "Flexibility",
+            txt1:"h"
+          },
+
+          {
+            ico: FcShipped,
+            txt: "I often quote myself. It adds spice to my conversation.",
+            txt1:"- George Bernard Shaw"
           },
       ];
    
@@ -103,30 +201,24 @@ export const Authors  = () => {
         {feature1.map((item, index) => (
           <div key={index}>
 
-
 <div data-aos="fade-right"
-     data-aos-easing="ease-in-sine" className='flex pb-5 justify-end '>
-<p className='align-middle px-5 flex items-center justify-center text-right font-oleo text-[3vh]'>{item.txt}</p>
-<div class="p-1.5 lg:w-24 lg:h-24 sm:w-20 sm:h-20 border-2 border-black rounded-full hover:bg-red-200">
-  <div class="bg-red-300 hover:bg-red-500 p-4 lg:w-20 lg:h-20 sm:w-16 sm:h-16 rounded-full flex items-center justify-center">
-    <item.ico className='lg:w-20 lg:h-20 md:w-20 md:h-20 sm:w-10 sm:h-10 fill-green-800'/>
-  </div>
+     data-aos-easing="ease-in-sine" className='pb-5 justify-end '>
+      <div className='flex'>
+      <FaQuoteLeft className='w-5 h-5 fill-green-800'/>
+      <p className='align-middle px-5 flex items-center justify-center text-right font-oleo text-[2.5vh]'>{item.txt}</p>
+    <FaQuoteRight className='w-5 h-5 fill-green-800'/>
+      </div>
+
+<div>
+<p className='align-middle  flex items-center text-right font-oleo text-[2.5vh]'>{item.txt1}</p>
+
 </div>
+
 </div>
           </div>
         ))}
    
     </>
-
-
-</div>
-
-
-
-<div className='flex items-center justify-center'>
-<div>
-<Lottie animationData={feat} loop={true} height={200} width={200} />
-    </div>
 </div>
 
 
@@ -135,13 +227,17 @@ export const Authors  = () => {
         {feature.map((item, index) => (
           <div key={index}>
 <div data-aos="fade-left"
-     data-aos-easing="ease-in-sine" className='flex pb-5'>
-<div class="p-1.5 lg:w-24 lg:h-24 sm:w-20 sm:h-20 border-2 border-black rounded-full hover:bg-red-200">
-  <div class="bg-red-300 hover:bg-red-500 p-4 lg:w-20 lg:h-20 sm:w-16 sm:h-16 rounded-full flex items-center justify-center">
-    <item.ico className='lg:w-20 lg:h-20 md:w-20 md:h-20 sm:w-10 sm:h-10 fill-green-800'/>
-  </div>
+     data-aos-easing="ease-in-sine" className=' pb-5'>
+<div className='flex'>
+<FaQuoteLeft className='w-5 h-5 fill-green-800'/>
+      <p className='align-middle px-5 flex items-center justify-center text-right font-oleo text-[2.5vh]'>{item.txt}</p>
+      <FaQuoteRight className='w-5 h-5 fill-green-800'/>
+      </div>
+
+<div>
+<p className='align-middle flex items-center text-right font-oleo text-[2.5vh]'>{item.txt1}</p>
+
 </div>
-<p className='align-middle px-5 flex items-center justify-center font-oleo text-[3vh]'>{item.txt}</p>
 </div>
           </div>
         ))}
