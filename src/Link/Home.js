@@ -4,7 +4,7 @@ import {Link} from 'react-scroll';
 import {BsFillArrowUpCircleFill} from 'react-icons/bs';
 import Footer from "../Navbar/Footer";
 import Clients from "../Home/Clients";
-import Features from "../Home/Features";
+import Authors from "../Home/Authors";
 import About from "../Home/About";
 import Landing from "../Home/Landing";
 
@@ -32,7 +32,7 @@ export const Home = () => {
         </Link>
       <Landing/>
       <About />
-      <Features/>
+      <Authors/>
       <Clients/>
      
      

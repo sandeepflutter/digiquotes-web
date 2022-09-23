@@ -13,7 +13,7 @@ import {GiFlexibleStar} from 'react-icons/gi';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
-export const Features  = () => {
+export const Authors  = () => {
 
   useEffect(
     ()=>{
@@ -91,11 +91,8 @@ export const Features  = () => {
          <div class="w-full px-4">
             <div class="text-center mx-auto mb-5 lg:mb-5">
                <h2 class=" font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 font-hahmlet">
-                  Our Features
+               Quotes of Famous Authors
                </h2>
-               <p class="text-base text-body-color font-titillium">
-               As a Software company, we provide a wide range of features on the products.
-               </p>
             </div>
          </div>
       </div>
@@ -175,4 +172,4 @@ export const Features  = () => {
   }
 
   
-  export default Features;
+  export default Authors;
