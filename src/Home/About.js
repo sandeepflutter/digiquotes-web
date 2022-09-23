@@ -1,49 +1,18 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import '../App.css';
-import AOS from 'aos';
 import 'aos/dist/aos.css'
+import {FaBirthdayCake} from 'react-icons/fa';
 
 export const About  =  () => {     
-useEffect(
-  ()=>{
-AOS.init({duration:1500})
-  },[]
-);
 
-const quotes = [
-   {
-       ico: FaCode,
-       txt: "High-quality Code",
-       url: ""
-     },
-
-     {
-       ico: FcSmartphoneTablet,
-       txt: "Easy-to-use software",
-       url: ""
-     },
-
-     {
-       ico: GiFlexibleStar,
-       txt: "Flexibility",
-       url: ""
-     },
-
-     {
-       ico: FcShipped,
-       txt: "Deliver on schedule",
-       url: ""
-     },
- ];
 
 
     return (
       
-<div id="about" class=" bg-blue-900 body-font">
+<div id="about" class=" bg-green-300 body-font">
 <section  class="px-5 lg:px-[9px] pl-5 pr-5">
    <div class="px-3 lg:px-20 sm:px-10 md:px-5 lg:flex md:flex">  
-<div data-aos="fade-right"
-     data-aos-easing="ease-in-sine" className='lg:w-[200vh] md:w-[200vh]'>
+<div className='lg:w-[200vh] md:w-[200vh]'>
       <div class="flex flex-wrap -mx-4">
          <div class="w-full px-4">
             <div class="text-center mx-auto mb-5 lg:mb-5">
@@ -54,50 +23,116 @@ const quotes = [
          </div>
       </div>
       
-<div className=''>
+
 <div className='px-5 '>
-<div class="grid grid-cols-4 gap-4">
-  <div>01</div>
-  <div>09</div>
-  <div>01</div>
-  <div>09</div>
-  <div>01</div>
-  <div>09</div>
-  <div>01</div>
-  <div>09</div>
-  <div>01</div>
-  <div>09</div>
-  <div>01</div>
-  <div>09</div>
-</div>
-</div>
-</div>
-
-
-<div className=''>
-   <>
-        {quotes.map((item, index) => (
-          <div key={index}>
-
-
-<div className='flex pb-5 justify-end '>
-<div class="grid grid-cols-4 gap-4">
-  <div>01</div>
-</div>
-
-
-<p className='align-middle px-5 flex items-center justify-center text-right font-oleo text-[3vh]'>{item.txt}</p>
-</div>
+<div class="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-2 gap-4">
+<div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
           </div>
-        ))}
-   
-    </>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
 
-
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
+  <div className="p-8 border-2 border-solid rounded-lg border-gray-500">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+            <FaBirthdayCake className='w-full h-full  text-gray-500'/>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+          </div>
+  </div>
 </div>
-
-
-
+</div>
 </div>
 </div>
 </section>

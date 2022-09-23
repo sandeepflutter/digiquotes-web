@@ -12,8 +12,6 @@ import {FaRegHandshake} from 'react-icons/fa';
 import {GiFlexibleStar} from 'react-icons/gi';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-import gp from '../Asset/gp.png';
-import {Link} from 'react-scroll';
 
 export const Features  = () => {
 

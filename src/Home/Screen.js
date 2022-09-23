@@ -13,7 +13,7 @@ import c from '../Asset/3.png';
 import '../App.css';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 
 export const Screen = () => {
   return (
@@ -25,11 +25,9 @@ export const Screen = () => {
           delay: 8000,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
+       
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide><img src={a} alt="" /></SwiperSlide>
