@@ -1,7 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import Lottie from "lottie-react";
-import web from '../../Asset/web.json';
 import {AiFillHtml5} from 'react-icons/ai'
 import {IoLogoCss3} from 'react-icons/io'
 
@@ -53,10 +51,6 @@ export const Web  = () => {
         </div>
 </div>
 
-</div>
-
-<div className='flex items-center justify-center lg:w-1/2 ' >
-<Lottie animationData={web} loop={true}/>
 </div>
 </div>
 </section>
