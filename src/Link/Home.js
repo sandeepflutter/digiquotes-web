@@ -27,7 +27,7 @@ export const Home = () => {
       <div className="bg-blue-50">
          <Link href="#" to="home" spy={true} smooth={true} duration={500} offset={-100}>
       <button  id="myBtn" style={{display: visible ? 'inline' : 'none'}}
-      class="fixed z-50 bottom-10 right-8 bg-transparent w-20 h-20 drop-shadow-lg flex justify-center items-center text-blue-500  fill-black text-6xl hover:drop-shadow-2xl hover:animate-bounce duration-900">
+      class="fixed z-50 bottom-10 right-8 bg-transparent w-16 h-16 drop-shadow-lg flex justify-center items-center text-green-900  fill-black text-6xl">
         <BsFillArrowUpCircleFill className="h-10"/></button>
         </Link>
       <Landing/>

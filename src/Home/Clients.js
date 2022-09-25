@@ -43,13 +43,13 @@ export const Clients = () => {
       ];
     return (
       
-      <footer class=" bg-sky-900 body-font">
+      <footer class=" bg-green-600 body-font">
   <div class="">
     <div class="flex flex-col items-center justify-center">
   </div>
 <div className='pt-2'>
   <p className='text-center text-[4vh] text-white pb-5 font-fredericka'>
-    Our Happy Clients
+    Quotes
   </p>
 <Marquee pauseOnHover={true} gradient={false}>       
     <>
