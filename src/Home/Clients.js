@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
 import React from 'react';
-import a from '../Asset/a.jpg';
+import a from '../Asset/1.png';
 import b from '../Asset/1.png';
 import c from '../Asset/2.png';
 import d from '../Asset/3.png';

@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Tab } from '@headlessui/react'
 
 
-import a from '../Asset/a.jpg'
+import a from '../Asset/1.png'
 import Footer from "../Navbar/Footer";
 import Web from './Tip/Web'
 
