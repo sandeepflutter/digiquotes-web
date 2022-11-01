@@ -21,6 +21,7 @@ import {FaFistRaised} from 'react-icons/fa';
 import {FaPeopleCarry} from 'react-icons/fa';
 import {FaMusic} from 'react-icons/fa';
 import {FaDog} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 
@@ -46,14 +47,19 @@ export const About  =  () => {
 
 <div className='px-5 '>
 <div class="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-4">
+<Link href="#" to={{
+  pathname:"/View",
+  state: {id: 1, name: 'sabaoon', shirt: 'green'}
+  }} class=" hover:text-gray-600" >
+  
 <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
             <FaBirthdayCake className='w-full h-full  text-green-600'/>
             </div>
-            <h6 className="mb-2 font-semibold leading-5 font-crimson">BIRTHDAY</h6>
+            <h6 className="mb-2 font-semibold leading -5 font-crimson">BIRTHDAY</h6>
           </div>
-  </div>
+  </div></Link>
   <div className="p-8 border-2 border-solid rounded-lg border-gray-500 bg-white">
           <div className="max-w-md text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">

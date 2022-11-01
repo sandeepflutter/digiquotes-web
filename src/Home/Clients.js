@@ -62,9 +62,7 @@ export const Clients = () => {
     </div>
           </div>
         ))}
-   
     </>
-    
 </Marquee>
 </div>
     </div>

@@ -2,14 +2,8 @@
 import { useState } from 'react'
 import { Tab } from '@headlessui/react'
 
-
-import a from '../Asset/1.png'
 import Footer from "../Navbar/Footer";
 import Web from './Tip/Web'
-
-
-
-
 
 
 function classNames(...classes) {
@@ -21,13 +15,11 @@ function classNames(...classes) {
 export const View = () => {
 
   let [categories] = useState({
-    Company: [
+    Wishes: [
       {
         id: 1,
         title: 'Ashraya Engineering',
         date: 'The company expertise lies in the fields of commercial and residential architectural design supervision and measurement, and cost estimation for residential and commercial buildings. We also have a highly specialized team in land surveying.',
-        url: "https://www.ashrayaengineering.com.np/",
-        img: a,
       },
     ],
   })
@@ -69,15 +61,11 @@ export const View = () => {
               )}
             >
 
-             <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-1 "> 
+             <div class=""> 
                 {posts.map((post) => (
                  <div key={post.id}>
-
                  <div class="flex justify-center card m-2 cursor-pointer border hover:border-blue-500 rounded-lg hover:shadow-lg transform hover:-translate-y-3 transition-all duration-200">
-                 <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                 <a href={post.url} target="_blank" rel="noreferrer" >
-                 <img class="border-blue-300 border-b rounded-t-lg" src={post.img} alt=""/>
-                 </a>
+                 <div class=" shadow-lg bg-white">
                  <div class="pb-8 pt-5 px-4">
                  <h5 class="text-gray-900 text-xl font-medium pb-2 font-hahmlet">{post.title}</h5>
                  <p class="text-gray-700 text-base mb-2 text-justify font-alegreya">
