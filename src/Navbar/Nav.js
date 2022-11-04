@@ -7,7 +7,7 @@ import '../App.css';
 
 
 function Nav() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [setIsOpen] = useState(false);
   return (
     <div className=" sticky z-50 top-0 bg-gradient-to-r from-green-600 to-green-600 " >
       <div className=" px-4 sm:px-6 lg:px-8">
