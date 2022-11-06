@@ -4,8 +4,6 @@ import {FaQuoteRight} from 'react-icons/fa';
 import {FcSmartphoneTablet} from 'react-icons/fc';
 import {FcShipped} from 'react-icons/fc';
 import {FcMoneyTransfer} from 'react-icons/fc';
-import {BiWinkSmile} from 'react-icons/bi';
-import {MdSupportAgent} from 'react-icons/md';
 import {FaQuoteLeft} from 'react-icons/fa';
 import {GiFlexibleStar} from 'react-icons/gi';
 import AOS from 'aos';
@@ -30,11 +28,6 @@ export const Authors  = () => {
     })
 
       const feature1 = [
-        {
-            ico: FaQuoteRight,
-            txt: "High-quality Code",
-            txt1:"h"
-          },
 
           {
             ico: FcSmartphoneTablet,
@@ -91,12 +84,6 @@ export const Authors  = () => {
           {
             ico: GiFlexibleStar,
             txt: "Flexibility",
-            txt1:"h"
-          },
-
-          {
-            ico: FcShipped,
-            txt: "Deliver on schedule",
             txt1:"h"
           },
       ];
@@ -117,17 +104,6 @@ export const Authors  = () => {
             txt1:"h"
           },
 
-          {
-            ico: BiWinkSmile,
-            txt: "100% work satisfaction",
-            txt1:"h"
-          },
-
-          {
-            ico: MdSupportAgent,
-            txt: "Tech assistance & support",
-            txt1:"h"
-          },
           {
             ico: FaQuoteRight,
             txt: "High-quality Code",

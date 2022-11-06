@@ -7,6 +7,9 @@ import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import {FaInstagram}from 'react-icons/fa';
 import {FaGooglePlay}from 'react-icons/fa';
+import {BiLogIn} from "react-icons/bi"
+import { Link } from 'react-router-dom';
+
 export const Landing  = () => {      
     return (
       
@@ -18,6 +21,14 @@ export const Landing  = () => {
 
 
 <div className="flex align-center justify-between mt-1 px-5 py-3 bg-white">
+
+<Link to="Login" className="text-[3.5vh] m-1 p-1 sm:m-2 sm:p-2 text-red-600 hover:bg-red-600 hover:text-white transition-colors duration-300"
+    href="#" 
+  >
+    <BiLogIn/>
+    <span class="sr-only">Youtube</span>
+  </Link>
+
 
 <a
     className="text-[3.5vh] m-1 p-1 sm:m-2 sm:p-2 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors duration-300"

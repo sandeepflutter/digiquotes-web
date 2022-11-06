@@ -24,7 +24,7 @@ export const View = () => {
 
   const location = useLocation()
   const { from } = location.state
-  const {Id} = location.state
+  //*const {Id} = location.state
  
 
 

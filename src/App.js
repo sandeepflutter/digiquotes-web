@@ -7,6 +7,7 @@ import Home from "./Link/Home";
 import Career from "./Link/Career";
 import data from "./Link/data";
 import ScrollToTop from "./ScrollToTop";
+import Login from "./Link/Login";
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/View" element={<View/>}/>
         <Route path="/Contact" element={<Contact social={data.social}/>}/>
         <Route path="/Career" element={<Career/>}/>
+        <Route path="/Login" element={<Login/>}/>
 </Routes>
 </div>
 </ScrollToTop>
